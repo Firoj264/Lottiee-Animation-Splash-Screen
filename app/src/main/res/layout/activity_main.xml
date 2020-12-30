@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottlelove"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="211dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:src="@drawable/ic_baseline_favorite_24"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I love you"
+        android:textColor="#FA0808"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="200dp"
+        android:textSize="40dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+</LinearLayout>
